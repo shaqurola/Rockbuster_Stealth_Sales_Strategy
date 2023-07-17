@@ -1,19 +1,19 @@
-# Rockbuster_Stealth_Sales_Strategy
+# Rockbuster_Stealth_Sales_Strategy #
 
-`#ffffff`
-Project Objective
 
-Rockbuster Stealth LLC is a movie rental company that used to have stores around the world. Facing stiff competition from streaming services such as Netflix and Amazon Prime, the Rockbuster Stealth management team is planning to use its existing movie licenses to launch an online video rental service in order to stay competitive
+##### Project Objective
 
-Aim : To help Rockbuster Stealth LLC Business Intelligence BI department with the Launch strategy for the new onlineVideo Service and providing insight.
+###### Rockbuster Stealth LLC is a movie rental company that used to have stores around the world. Facing stiff competition from streaming services such as Netflix and Amazon Prime, the Rockbuster Stealth management team is planning to use its existing movie licenses to launch an online video rental service in order to stay competitive
 
-The data used contains following tables:
+###### Aim : To help Rockbuster Stealth LLC Business Intelligence BI department with the Launch strategy for the new onlineVideo Service and providing insight.
 
-Fact Tables
-. Payment
-. Rental
-Dimension Tables
-. Store
+###### The data used contains following tables:
+
+#### Fact Tables
+#####.Payment
+#####.Rental
+#### Dimension Tables
+#####. Store
 . Film category
 . Customer
 . Staff
