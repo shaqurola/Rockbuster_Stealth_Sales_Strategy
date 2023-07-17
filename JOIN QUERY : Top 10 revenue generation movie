@@ -1,0 +1,20 @@
+SELECT A.film_id,
+       A.title title, 
+       A.rental_duration,
+       A.rental_rate,
+       A.replacement_cost,
+       A.rating,
+       A.length,
+       G.name language,
+       F.name category,
+       SUM(D.amount) Total_Revenue
+FROM film A
+INNER JOIN inventory B ON A.film_id = B.film_id
+INNER JOIN rental C ON B.inventory_id = C.inventory_id
+INNER JOIN payment D ON C.rental_id = D.rental_id
+INNER JOIN film_category E ON A.film_id = E.film_id
+INNER JOIN category F ON E.category_id = F.category_id
+INNER JOIN language G ON G.language_id = A.language_id
+GROUP BY 1, 8, 9
+ORDER BY 10 DESC
+LIMIT 10;
